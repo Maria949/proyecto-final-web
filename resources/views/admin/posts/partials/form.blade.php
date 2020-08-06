@@ -7,7 +7,7 @@
 	{{ Form::select('category_id', $categories, null, ['class' => 'form-control']) }}
 </div> 
 <div class="form-group">
-    {{ Form::label('name', 'Nombre de la etiqueta') }}
+    {{ Form::label('name', 'Título de la entrada') }}
     {{ Form::text('name', null, ['class' => 'form-control', 'id' => 'name']) }}
 </div>
 <div class="form-group">
@@ -46,7 +46,7 @@
     {{ Form::textarea('excerpt', null, ['class' => 'form-control', 'rows' => '2']) }}
 </div>
 <div class="form-group">
-    {{ Form::label('body', 'Descripción') }}
+    {{ Form::label('body', 'Contenido de la entrada') }}
     {{ Form::textarea('body', null, ['class' => 'form-control']) }}
 </div>
 <div class="form-group">
